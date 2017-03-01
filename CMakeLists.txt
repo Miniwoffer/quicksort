@@ -4,6 +4,6 @@ project(quicksort)
 set(CMAKE_CXX_STANDARD 11)
 
 set(SOURCE_FILES
-        Quicksort_main.cpp)
+        Quicksort_main.cpp quicksort.h)
 
 add_executable(quicksort ${SOURCE_FILES})
