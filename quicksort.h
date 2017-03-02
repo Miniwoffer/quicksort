@@ -8,7 +8,7 @@
 template <typename T>
 class quicksort {
 private:
-    static const int THRESHOLD = 2;
+    static const int THRESHOLD = 2; //TODO: change to eks 12 when insertion sort is done
     static void swap(T *a, T *b)
     {
         int temp = *a;
@@ -17,6 +17,7 @@ private:
     }
     static void insertionSort(T *arr, int size)
     {
+        //TODO: make this word :P
         T *arrend = arr+size-1;
         T *current;
         bool run = true;
